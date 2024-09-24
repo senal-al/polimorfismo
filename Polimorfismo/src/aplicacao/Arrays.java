@@ -70,18 +70,18 @@ public class Arrays {
 		}
 
 		// Array com números
-		int numeros[] = { 2, 5, 3, 4, 1, 10};
+		int numeros1[] = { 2, 5, 3, 4, 1, 10};
 
 		int soma = 0;
 		double media;
 
-		for (int i = 0; i < numeros.length; i++) {
-			soma += numeros[i];
+		for (int i = 0; i < numeros1.length; i++) {
+			soma += numeros1[i];
 		}
 
 		System.out.println("A soma dos números é: " + soma);
 
-		media = soma / numeros.length;
+		media = soma / numeros1.length;
 		System.out.println("A média é: " + media);
 	}
 }
